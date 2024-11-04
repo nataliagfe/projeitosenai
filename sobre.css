@@ -1,0 +1,15 @@
+
+section #sen {
+    top: 55.5%;
+    left:2%;
+    width: 96%;
+    height: 60.8%;
+    border-radius: 2px;
+}
+
+iframe {
+    float: left;
+    margin: 10px;
+    width: 43.4%;
+    height: 330px;
+}

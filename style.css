@@ -1,0 +1,278 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo img {
+    position: relative;
+    height: 50px;
+    left: 43%;
+}
+
+.nome h2 {
+    position: absolute;
+    color: gray;
+    top: 2%;
+    right: 60%;
+    font-size: 120%;
+}
+
+.instagram,
+.linkedin {
+    position: absolute;
+    color: #0055a4;
+    top: 2%;
+    font-size: 40px;
+    transition: background-color 0.3s;
+}
+
+.instagram {
+    left: 90%;
+}
+
+.linkedin {
+    left: 95%;
+}
+
+.instagram:hover,
+.linkedin:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    padding: 10px;
+}
+
+.dropdown-menu {
+    background: #0055a4;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background: #003d80;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background: white;
+    color: #003d80;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.inicio { 
+    text-align: center;
+    margin-bottom: 50%;
+}
+
+.inicio img {
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    width: 30%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.inicio iframe {
+    position: absolute;
+    top: 165%;
+    left: 5%;
+    width: 30%;
+    height: 30%;
+    border-radius: 5px;
+}
+
+.conteudo p {
+    position: absolute;
+    left: 38%;
+    top: 110%;
+    text-align: justify;
+    font-size: 160%;
+    font-weight: lighter;
+}
+
+.conteudo h3 {
+    position: absolute;
+    left: 45%;
+    color: #0055a4;
+    font-weight: bold;
+    font-size: 180%;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.titulo2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.carrossel {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#carrossel {
+    padding: 20px;
+    margin: 20px;
+    background: #0055a4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.carrossel img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.divulgacao {
+    text-align: center;
+    margin-bottom: 50%;
+}
+
+.divulgacao iframe {
+    position: absolute;
+    border-radius: 15px;
+    top: 20%;
+    right: 1%;
+}
+
+.divulgacao img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.diferencial {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.diferencial ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.grid-lista li {
+    background-color: #4587d8;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    transition: 0.3s;
+    flex: 1 1 calc(30% - 20px);
+    box-sizing: border-box;
+}
+
+.grid-lista li i {
+    display: block;
+    font-size: 30px;
+    margin: 10px auto 0;
+    color: white;
+}
+
+.grid-lista li:hover {
+    background-color: #5d87ca;
+    transform: scale(1.08);
+}
+
+.bg-custom {
+    background-color: #0055a4;
+}
+
+#rodape {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    background-color: #0055a4;
+    color: rgb(255, 252, 252);
+}
+
+.coluna {
+    text-align: left;
+}
+
+.coluna h6 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.coluna ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.coluna li {
+    margin-bottom: 5px;
+}
+
+.coluna a {
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+}
+
+.coluna a:hover {
+    color: gray;
+}
+
+.coluna img {
+    width: 40px;
+    height: 40px;
+}
+
+.coluna .localizacao {
+    width: 60px;
+    height: 60px;
+}
+
+.icones li i {
+    font-size: 10px;
+    color: white;
+}
